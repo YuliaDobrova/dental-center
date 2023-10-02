@@ -1,0 +1,8 @@
+.TreatementWrapper {
+  position: relative;
+}
+.TreatementIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}

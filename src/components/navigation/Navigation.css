@@ -1,0 +1,18 @@
+.NavBurgerWrapper {
+  position: absolute;
+  top: -50px;
+  left: -12%;
+  width: 275px;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+  .NavWrapper {
+    position: static;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

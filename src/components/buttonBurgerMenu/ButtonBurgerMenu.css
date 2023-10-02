@@ -1,0 +1,56 @@
+.BurgerBtn {
+  position: absolute;
+  right: -15px;
+  top: 22px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.BurgerBtnIcon {
+  width: 35px;
+  height: 35px;
+  fill: #8b98b2;
+  animation-name: changeBurgerIconColor;
+  animation-duration: 3000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeBurgerIconColor {
+  0% {
+    fill: #8b98b2;
+  }
+
+  50% {
+    fill: #5893d4;
+  }
+
+  100% {
+    fill: #8b98b2;
+  }
+}
+
+.BurgerBtnIcon:hover {
+  fill: #000000;
+  /* fill: rgba(88, 147, 212, 0.95); */
+}
+
+@media screen and (min-width: 768px) {
+  .BurgerBtn {
+    width: 45px;
+    height: 45px;
+  }
+  .BurgerBtnIcon {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 1249px) {
+  .BurgerBtn {
+    opacity: 0;
+  }
+}

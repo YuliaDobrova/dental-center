@@ -1,0 +1,109 @@
+.ModalButtonCross {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  /* margin-bottom: 40px; */
+  fill: #8b98b2;
+  background-color: transparent;
+  /* border-radius: 50%; */
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.ModalButtonCross:hover .IconCross,
+.ModalButtonCross:focus .IconCross {
+  fill: #000000;
+}
+
+.IconCross {
+  max-width: 16px;
+  max-height: 16px;
+}
+.ModalForm {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.FormText {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.FormFieldWrapper {
+  margin-bottom: 15px;
+}
+.FormInputWrapper {
+  position: relative;
+  display: block;
+}
+.FormInput {
+  /* padding: 10px; */
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 42px;
+}
+.FormInput:hover,
+.FormInput:focus {
+  outline: none;
+  border-color: #5893d4;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.FormInput::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+.Icon {
+  position: absolute;
+  top: 13px;
+  left: 7px;
+  fill: #8b98b2;
+  max-width: 12px;
+  max-height: 12px;
+}
+.FormInput:hover + .Icon,
+.FormInput:focus + .Icon {
+  fill: #5893d4;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.FormMessage {
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-top: 12px;
+  resize: none;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.FormMessage::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+.FormMessage:hover,
+.FormMessage:focus {
+  outline: none;
+  border-color: #5893d4;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.ModalSubmitButton {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1250px) {
+  .ModalSubmitButton {
+    position: static;
+    margin-top: 10px;
+    /* margin-left: 110px; */
+  }
+}

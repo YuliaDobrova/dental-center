@@ -1,0 +1,24 @@
+.Header {
+  position: relative;
+  height: 82px;
+  width: 100%;
+  min-height: 82px;
+  background: #ffffff;
+  z-index: 10;
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    min-height: 112px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .Header {
+    min-height: 122px;
+  }
+}
+
+.NavHeaderWreaper {
+  margin-right: 60px;
+}

@@ -1,0 +1,17 @@
+.PacientPhotoListWrapper {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.PacientPhotoListWrapper .ServiceLink {
+  cursor: auto;
+}
+
+.PacientPhotoListName {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.DiscountsPageText {
+  margin-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.OrthodonticsWrapper {
+  position: relative;
+}
+.OrthodonticsIcon {
+  position: absolute;
+  top: 17px;
+  left: 45px;
+}

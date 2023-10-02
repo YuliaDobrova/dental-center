@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Хірургія",
+    "icon": "#icon-surgery-1",
+    "path": "/services/surgery"
+  },
+  {
+    "title": "Лікування зубів",
+    "icon": "#icon-treatment-2",
+    "path": "/services/treatment"
+  },
+  {
+    "title": "Імплантація зубів",
+    "icon": "#icon-implantation-3",
+    "path": "/services/implantation"
+  },
+  {
+    "title": "Пародонтологія",
+    "icon": "#icon-periodontologic-4",
+    "path": "/services/periodontics"
+  },
+  {
+    "title": "Естетична стоматологія",
+    "icon": "#icon-estetical-5",
+    "path": "/services/aesthetics"
+  },
+  {
+    "title": "Протезування",
+    "icon": "#icon-prothethis-6",
+    "path": "/services/prosthetics"
+  },
+  {
+    "title": "Професійна гігієна",
+    "icon": "#icon-toothbrush-7",
+    "path": "/services/hygiene"
+  },
+  {
+    "title": "Ортодонтія",
+    "icon": "#icon-ortodontics-8",
+    "path": "/services/orthodontics"
+  }
+]

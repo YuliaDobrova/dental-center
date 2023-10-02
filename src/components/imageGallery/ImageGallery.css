@@ -1,0 +1,44 @@
+.gallerySlideList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* .gallerySlideItem {
+} */
+.gallerySlide {
+  height: 300px;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  /* color: rgb(79, 82, 85); */
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.gallerySlide h3 {
+  position: absolute;
+  font-size: 20px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  text-transform: uppercase;
+  text-shadow: 3px -2px 4px rgba(150, 150, 150, 1);
+}
+
+.gallerySlide.active {
+  flex: 10;
+}
+
+.gallerySlide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}

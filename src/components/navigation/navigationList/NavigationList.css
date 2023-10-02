@@ -1,0 +1,54 @@
+.NavLinkList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.NavLinkListItem {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 0;
+}
+.NavLink {
+  font-size: 16px;
+  color: rgb(139, 152, 178);
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(139, 152, 178, 0.5);
+  cursor: pointer;
+}
+.NavLink:hover,
+.NavLink:focus {
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (min-width: 1250px) {
+  .NavLinkList {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: static;
+    padding-top: 0px;
+    background-color: transparent;
+    width: 100%;
+  }
+  .NavLinkListItem {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .NavLink {
+    color: #8b98b2;
+    padding-bottom: 0;
+    border-bottom: 1px solid transparent;
+  }
+}

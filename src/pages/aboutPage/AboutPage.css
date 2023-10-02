@@ -1,0 +1,206 @@
+.DoctorsList {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.DoctorsListItem {
+  /* position: relative; */
+  background-color: #ffffff;
+  max-width: 270px;
+  height: 390px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-left: 30px; */
+  /* flex-basis: calc((100% - 60px) / 2); */
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(108, 122, 139, 0.25);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.DoctorsListItem:not(:last-child) {
+  margin-bottom: 30px;
+}
+.DoctorsImg {
+  padding: 10px;
+  height: 265px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.DoctorsTextWrapper {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 420px;
+  height: 125px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(108, 122, 139, 0.25);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.DoctorsImgText {
+  text-align: center;
+  /* font-style: italic; */
+  /* text-transform: uppercase; */
+}
+.DoctorsText {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.ClinicMobilePhotos {
+  display: flex;
+  flex-direction: column;
+}
+.cabinetPhoto {
+  width: 300px;
+  height: 440px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.enterancePhoto {
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.toolsPhoto {
+  width: 300px;
+  border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .DoctorsList {
+    display: flex;
+    flex-direction: row;
+  }
+  .ClinicTabletPhotos {
+    display: flex;
+  }
+  .cabinetPhoto {
+    width: 325px;
+    height: 442px;
+    border-radius: 20px;
+  }
+  .ClinicTabletPhotosRightWrapper {
+    margin-left: 20px;
+  }
+  .enterancePhoto {
+    width: 325px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .toolsPhoto {
+    width: 325px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .DoctorsWrapper {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cabinetPhoto {
+    border-radius: 20px;
+    width: 400px;
+    height: 730px;
+  }
+  .enterancePhoto {
+    width: 420px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  .toolsPhoto {
+    width: 420px;
+    margin-left: 30px;
+    border-radius: 20px;
+  }
+
+  .Photo {
+    border: 1px solid rgba(139, 152, 177, 0.15);
+    border-radius: 10px;
+    transition-duration: 2000ms;
+    transition-property: initial;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .Photo:hover {
+    transform: scale(1.05);
+  }
+
+  .DoctorsList {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-top: 30px; */
+    /* flex-wrap: wrap; */
+    /* margin-bottom: -30px; */
+    /* margin-left: -30px; */
+  }
+  .DoctorsListItem {
+    /* position: relative; */
+    background-color: #ffffff;
+    padding: 10px;
+    width: 240px;
+    height: 370px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 60px) / 2);
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(108, 122, 139, 0.25);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  /* .DoctorsListItem:not(:last-child) {
+    margin-bottom: 20px;
+  } */
+  .DoctorsImg {
+    padding: 10px;
+    width: 210px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .DoctorsTextWrapper {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 420px;
+    height: 125px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(108, 122, 139, 0.25);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .DoctorsImgText {
+    text-align: center;
+    font-size: 18px;
+    /* font-style: italic; */
+    /* text-transform: uppercase; */
+  }
+  .DoctorsImgText.Name {
+    font-size: 18px;
+  }
+  .DoctorsImgText.Position {
+    font-size: 16px;
+  }
+  .DoctorsImgText.Experience {
+    font-size: 16px;
+  }
+
+  .DoctorsText {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  .WrapperInfo {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px rgba(108, 122, 139, 0.25);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

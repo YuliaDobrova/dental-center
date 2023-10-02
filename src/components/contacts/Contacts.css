@@ -1,0 +1,102 @@
+@media screen and (min-width: 325px) {
+}
+
+/* ============================ */
+
+@media screen and (min-width: 768px) {
+}
+
+/* ============================ */
+
+@media screen and (min-width: 1250px) {
+  .ContactsWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-height: 60px;
+    padding-top: 25px;
+    padding-right: 30px;
+  }
+  /* PHONE */
+  .ContactsPhone__Wrapper {
+    position: relative;
+  }
+  .Contacts__icon-smartphone {
+    position: absolute;
+    left: -10px;
+    top: -6px;
+    height: 35px;
+    width: 35px;
+    fill: #8b98b2;
+    animation-name: changeIconColor;
+    animation-duration: 3000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .Contacts__icon-smartphone:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes changeIconColor {
+    0% {
+      fill: #8b98b2;
+    }
+
+    50% {
+      fill: #5893d4;
+    }
+
+    100% {
+      fill: #8b98b2;
+    }
+  }
+
+  .Contacts__link-Phone {
+    padding-left: 20px;
+    font-size: 16px;
+    color: #8b98b2;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .Contacts__link-Phone:hover,
+  .Contacts__link-Phone:focus {
+    color: #000000;
+  }
+  /* EMAIL */
+  .Contacts__icon-envelope {
+    position: absolute;
+    left: -10px;
+    top: -1px;
+    height: 25px;
+    width: 25px;
+    cursor: default;
+    fill: #8b98b2;
+    animation-name: changeIconColor;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .Contacts__icon-envelope:hover {
+    animation-play-state: paused;
+  }
+
+  .Contacts__link-Email {
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #8b98b2;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .Contacts__link-Email:hover,
+  .Contacts__link-Email:focus {
+    color: #000000;
+  }
+}

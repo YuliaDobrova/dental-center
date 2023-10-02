@@ -1,0 +1,196 @@
+.HeroWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  /* border-bottom: 2px solid #ececec; */
+}
+
+.HeroDentalInstruments {
+  position: absolute;
+  transform: rotate(180deg);
+  opacity: 0;
+  right: 5px;
+  top: -30px;
+  max-width: 80px;
+  max-height: 80px;
+}
+.HeroChairDentistry {
+  position: absolute;
+  left: 50px;
+  top: -30px;
+  max-width: 250px;
+  max-height: 250px;
+  opacity: 0;
+  z-index: 0;
+  transform: scale(-1, 1);
+  /* transform: rotate(180deg); */
+}
+.HeroPhotoDoctorKrolik {
+  margin-top: 30px;
+  max-width: 250px;
+  max-height: 250px;
+  z-index: 2;
+  filter: drop-shadow(0px 7px 5px #8b98b2);
+}
+
+/* =========================== */
+.HeroTitleWrapper {
+  margin-top: 10px;
+  width: 130px;
+}
+.HeroTitleText {
+  text-align: center;
+  max-width: 130px;
+}
+.HeroTitle_One {
+  position: absolute;
+  left: 120px;
+  top: -10px;
+  font-size: 11px;
+  text-align: center;
+  /* text-align: right; */
+  text-transform: uppercase;
+  font-style: italic;
+  /* font-weight: bold; */
+  margin-top: 10px;
+  color: #8b98b2;
+  /* color: #565e6e; */
+}
+
+.HeroTitle_Two {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  max-width: 140px;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 0px #ffffff, 4px 4px 3px rgba(0, 0, 0, 0.15);
+}
+.HeroTitle_Two:hover {
+  color: #000000;
+}
+
+.HeroText {
+  margin-top: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  width: 117px;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: -30px;
+  color: #8b98b2;
+}
+
+@media screen and (min-width: 768px) {
+  .HeroWrapper {
+    width: 650px;
+  }
+  .HeroDentalInstruments {
+    opacity: 0.75;
+    left: 570px;
+    top: -30px;
+    max-width: 125px;
+    max-height: 125px;
+  }
+  .HeroChairDentistry {
+    opacity: 0.65;
+    left: -100px;
+    top: 10px;
+    max-width: 330px;
+    max-height: 330px;
+    transform: scale(1, 1);
+  }
+  .HeroPhotoDoctorKrolik {
+    max-width: 260px;
+    max-height: 260px;
+  }
+  .HeroTitle_One {
+    font-size: 15px;
+    position: absolute;
+    left: 310px;
+    top: 0px;
+  }
+  .HeroTitle_Two {
+    font-size: 15px;
+  }
+  .HeroText {
+    margin-top: 50px;
+    width: 140px;
+    font-size: 14px;
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .HeroWrapper {
+    width: 650px;
+  }
+
+  .HeroDentalInstruments {
+    left: 670px;
+    top: -30px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .HeroChairDentistry {
+    left: -350px;
+    top: -10px;
+    max-width: 430px;
+    max-height: 430px;
+    transform: none;
+  }
+  .HeroPhotoDoctorKrolik {
+    max-width: 320px;
+    max-height: 320px;
+  }
+
+  .HeroTitleWrapper {
+    margin-top: 50px;
+    width: 300px;
+  }
+  .HeroTitleText {
+    position: static;
+    text-align: center;
+    max-width: 270px;
+  }
+  .HeroTitle_One {
+    position: static;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    color: #8b98b2;
+  }
+  .HeroTitle_Two {
+    position: static;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+      sans-serif;
+    text-align: center;
+    max-width: 270px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px #ffffff, 4px 4px 3px rgba(0, 0, 0, 0.15);
+  }
+
+  .HeroText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+      sans-serif;
+    width: 270px;
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}

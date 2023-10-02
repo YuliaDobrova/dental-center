@@ -1,0 +1,9 @@
+.AestheticsWrapper {
+  position: relative;
+}
+
+.AestheticsIcon {
+  position: absolute;
+  top: 17px;
+  left: 47px;
+}

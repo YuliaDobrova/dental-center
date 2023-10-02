@@ -1,0 +1,106 @@
+/* .SuccessModalWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-color: none;
+} */
+.SuccessModalTitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.SuccessModalTitle.last {
+  margin-top: 10px;
+}
+
+.SuccessModalIconWrapper {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SuccessModalIcon {
+  position: absolute;
+  /* left: 232px; */
+  /* top: 134px; */
+  height: 35px;
+  width: 35px;
+  left: -8px;
+  top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #8b98b2;
+  animation-name: changeModalIconColor;
+  animation-duration: 2000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.SuccessModalIcon:hover {
+  animation-play-state: paused;
+}
+
+@keyframes changeModalIconColor {
+  0% {
+    fill: #8b98b2;
+  }
+
+  30% {
+    fill: #5893d4;
+  }
+
+  70% {
+    fill: #5893d4;
+  }
+
+  100% {
+    fill: #8b98b2;
+  }
+}
+
+.SuccessModalButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  height: 45px;
+  width: 45px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  color: rgba(108, 122, 139, 0.95);
+  border: 2px solid rgba(88, 147, 212, 0.65);
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.SuccessModalButton:hover,
+.SuccessModalButton:focus {
+  color: #000000;
+  border: 2px solid rgba(88, 147, 212, 0.95);
+}
+
+@media screen and (min-width: 768px) {
+  .SuccessModalTitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .SuccessModalTitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}

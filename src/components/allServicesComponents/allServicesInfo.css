@@ -1,0 +1,79 @@
+/* ============surgery-1============== */
+.SurgeryWrapper {
+  position: relative;
+}
+.SurgeryIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}
+/* ============treatment-2============== */
+.TreatementWrapper {
+  position: relative;
+}
+.TreatementIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}
+/* ============implantation-3============= */
+.ImplantationWrapper {
+  position: relative;
+}
+.ImplantationIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}
+
+/* ============periodontologic-4============= */
+.PeriodonticsWrapper {
+  position: relative;
+}
+.PeriodonticsIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}
+
+/* ============estetical-5============== */
+.AestheticsWrapper {
+  position: relative;
+}
+
+.AestheticsIcon {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  /* left: 47px; */
+}
+/* ============prothethis-6============= */
+.ProstheticsWrapper {
+  position: relative;
+}
+.ProstheticsIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}
+
+/* ============toothbrush-7============= */
+.HygieneWrapper {
+  position: relative;
+}
+
+.HygieneIcon {
+  position: absolute;
+  top: 17px;
+  left: 47px;
+}
+
+/* ============ortodontics-8============ */
+.OrthodonticsWrapper {
+  position: relative;
+}
+.OrthodonticsIcon {
+  position: absolute;
+  top: 17px;
+  left: 45px;
+}

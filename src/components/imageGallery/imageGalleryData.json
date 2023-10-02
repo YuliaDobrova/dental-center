@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Cabinet",
+    "id": "cabinet"
+  },
+  {
+    "name": "Enterance",
+    "id": "enterance"
+  },
+  {
+    "name": "Tools",
+    "id": "tools"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pacient1",
+    "text": "pacient-1",
+    "imgUrl": "./pacientPhotos/pacient-1.jpg",
+    "title": "% Акції %"
+  },
+  {
+    "id": "pacient2",
+    "text": "pacient-2",
+    "imgUrl": "./pacientPhotos/pacient-2.jpg",
+    "title": "% Пропозиції %"
+  },
+  {
+    "id": "pacient3",
+    "text": "pacient-3",
+    "imgUrl": "./pacientPhotos/pacient-3.jpg",
+    "title": "% Знижки %"
+  }
+]

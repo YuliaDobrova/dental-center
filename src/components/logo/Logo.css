@@ -1,0 +1,29 @@
+.Logo {
+  position: absolute;
+  top: 3px;
+  left: -6px;
+  max-width: 80px;
+  cursor: pointer;
+  transition-duration: 2000ms;
+  transition-property: initial;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.Logo:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (min-width: 768px) {
+  .Logo {
+    max-width: 110px;
+    top: 3px;
+    left: -30px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .Logo {
+    max-width: 120px;
+    top: 0;
+    left: 0;
+  }
+}

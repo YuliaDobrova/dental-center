@@ -1,0 +1,8 @@
+.ProstheticsWrapper {
+  position: relative;
+}
+.ProstheticsIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}

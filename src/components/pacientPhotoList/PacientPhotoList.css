@@ -1,0 +1,77 @@
+@media screen and (min-width: 768px) {
+  .PacientPhotoList {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* width: 728px; */
+  }
+  .PacientPhotoListItem {
+    position: relative;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .PacientPhotoListTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 5;
+    padding: 10px 0;
+    width: 196px;
+    background: rgba(43, 43, 43, 0.45);
+    text-shadow: 1px 1px 4px #ffffff, 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* color: #5893d4; */
+    animation-name: changeColorDiscond;
+    animation-duration: 4000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .PacientPhotoListTitle:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes changeColorDiscond {
+    0% {
+      /* color: #ffffff; */
+      text-shadow: 0px 1px 2px rgba(88, 147, 212, 0.95), 0px -1px 2px rgba(88, 147, 212, 0.95);
+    }
+
+    50% {
+      /* color: #5893d4; */
+      text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.75), 0px -1px 2px rgba(255, 255, 255, 0.75);
+    }
+
+    100% {
+      /* color: #ffffff; */
+      text-shadow: 0px 1px 2px rgba(88, 147, 212, 0.95), 0px -1px 2px rgba(88, 147, 212, 0.95);
+    }
+  }
+
+  .PacientPhotoListItemImg {
+    border-radius: 10px;
+    transition-duration: 2000ms;
+    transition-property: initial;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .PacientPhotoListItemImg:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .PacientPhotoListTitle {
+    font-size: 15px;
+    width: 250px;
+  }
+}

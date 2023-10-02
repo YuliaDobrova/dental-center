@@ -1,0 +1,8 @@
+.ImplantationWrapper {
+  position: relative;
+}
+.ImplantationIcon {
+  position: absolute;
+  top: 17px;
+  left: 42px;
+}

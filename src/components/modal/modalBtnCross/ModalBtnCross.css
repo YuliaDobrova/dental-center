@@ -1,0 +1,21 @@
+.ModalButtonCross {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  padding: 4px;
+  background-color: transparent;
+  fill: #8b98b2;
+  border: none;
+  cursor: pointer;
+  z-index: 7;
+}
+.ModalButtonCross:hover,
+.ModalButtonCross:focus {
+  fill: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .ModalButtonCross {
+    right: 8px;
+  }
+}
